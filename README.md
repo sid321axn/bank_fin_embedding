@@ -9,8 +9,22 @@ price news sentiment analysis for building robust stock price analyzer.
 
 ## Data
 Bank Fin embeddings is trained on Financial Phrase Bank from [Malo et al](https://www.researchgate.net/publication/251231107_Good_Debt_or_Bad_Debt_Detecting_Semantic_Orientations_in_Economic_Texts) and following 5 comprehensive banking and finance books
-1. Basics of Finance by university of Budapest
-2. The essays of warren buffet
-3. Investment Banking
-4. Money, Banking and International Finance
-5. Risk Management and financial Institutions 
+1. [Basics of Finance by university of Budapest](http://unipub.lib.uni-corvinus.hu/3842/1/pfi-briefings.pdf)
+2. [The Essays of Warren Buffett: Lessons for Corporate America](http://csinvesting.org/wp-content/uploads/2015/05/Essays-of-Warren-Buffett-_-Lessons-for-Corporate-America_Cunningham.pdf)
+3. [Investment Banking](https://books.google.co.in/books?id=j2JSCAAAQBAJ&printsec=frontcover&dq=investment+banking+fourth+edition&hl=en&sa=X&ved=2ahUKEwiurpPf3c3qAhVRxzgGHdERAUsQ6AEwA3oECAEQAg#v=onepage&q&f=false)
+4. [Money, Banking and International Finance](https://books.google.co.in/books/about/Money_Banking_and_International_Finance.html?id=eM4qnwEACAAJ&source=kp_book_description&redir_esc=y)
+5. [Risk Management and financial Institutions](https://books.google.co.in/books?id=ljikBgAAQBAJ&printsec=frontcover&dq=risk+management+and+financial+institutions&hl=en&sa=X&ved=2ahUKEwin8JXx3c3qAhXoILcAHWy9CRIQ6AEwAHoECAMQAg#v=onepage&q=risk%20management%20and%20financial%20institutions&f=false)
+
+## References
+1. L. Maate and G. Hinton, "Visualizing data using t-SNE", Journal of Machine Learning Research, vol. 9, pp. 2579-2605, 2008. 
+2. T. Mikolov, I. Sutskever, K. Chen, G. Corrado and J. Dean, "Distributed Representations of Words and Phrases and their Compositionality", Advances in Neural Information Processing Systems, pp. 3111-3119, 2013. 
+3. R. Rehurek and P. Sojka, "Software Framework for Topic Modelling with Large Corpora", Proceedings of the LREC 2010 Workshop on New Challenges for NLP Frameworks, 2010.
+4. Word Vector with small corpora : Visualizing word vectors [Link](https://chrisculy.net/lx/wordvectors/wvecs_visualization.html)
+5. Visualizing word 2 vec [Link](https://github.com/sismetanin/word2vec-tsne)
+
+
+## Documentation and How to report bugs
+* Gensim documentatiob: [https://radimrehurek.com/gensim/](https://radimrehurek.com/gensim/). 
+* Scikit-learn documentation: [http://scikit-learn.org/stable/documentation.html](http://scikit-learn.org/stable/documentation.html). 
+* If you find any issues, please open a bug here on GitHub.
+
