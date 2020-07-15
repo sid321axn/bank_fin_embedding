@@ -32,4 +32,4 @@ In the following image we have visualized 11 financial words with their dimensio
 * Gensim documentatiob: [https://radimrehurek.com/gensim/](https://radimrehurek.com/gensim/). 
 * Scikit-learn documentation: [http://scikit-learn.org/stable/documentation.html](http://scikit-learn.org/stable/documentation.html). 
 * If you find any issues, please open a bug here on GitHub.
-
+ 
