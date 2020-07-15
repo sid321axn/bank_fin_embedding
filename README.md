@@ -15,6 +15,11 @@ Bank Fin embeddings is trained on Financial Phrase Bank from [Malo et al](https:
 4. [Money, Banking and International Finance](https://books.google.co.in/books/about/Money_Banking_and_International_Finance.html?id=eM4qnwEACAAJ&source=kp_book_description&redir_esc=y)
 5. [Risk Management and financial Institutions](https://books.google.co.in/books?id=ljikBgAAQBAJ&printsec=frontcover&dq=risk+management+and+financial+institutions&hl=en&sa=X&ved=2ahUKEwin8JXx3c3qAhXoILcAHWy9CRIQ6AEwAHoECAMQAg#v=onepage&q=risk%20management%20and%20financial%20institutions&f=false)
 
+## Word Vector Visualization
+In the following image we have visualized 11 financial words with their dimensions in 2d scatterplot.
+
+![MSA](images/similar_words.png)
+
 ## References
 1. L. Maate and G. Hinton, "Visualizing data using t-SNE", Journal of Machine Learning Research, vol. 9, pp. 2579-2605, 2008. 
 2. T. Mikolov, I. Sutskever, K. Chen, G. Corrado and J. Dean, "Distributed Representations of Words and Phrases and their Compositionality", Advances in Neural Information Processing Systems, pp. 3111-3119, 2013. 
