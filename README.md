@@ -22,9 +22,9 @@ In the following image we have visualized 11 financial words with their dimensio
 
 Below image showed words in close proximity to specific finance words
 
-![MSA](images/c1.PNG)
+![MSA](images/cl1.PNG)
 
-![MSA](images/c2.PNG)
+![MSA](images/cl2.PNG)
 
 ## Word Algebra
 
