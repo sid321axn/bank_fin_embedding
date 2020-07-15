@@ -36,6 +36,7 @@ The core idea is that once words are represented as numerical vectors, you can d
 - Add and subtract those vectors to produce a new, combined vector.
 - Look up the most similar vector(s) to this new, combined vector via cosine similarity.
 - Return the word(s) associated with the similar vector(s).
+
 This is the amazing property of word embeddings, because it means that they carry important relational information that can be used in many different NLP tasks.
 
 ![MSA](images/word_algebra.PNG)
@@ -51,7 +52,7 @@ dense LSTM embeddings for different tasks using deep architectures. Also you can
 
 ## FAQ
 
-You can find this [tutorial]() on how to use BankFin embedding for a quick start.
+You can find this [tutorial](https://github.com/sid321axn/bank_fin_embedding/blob/master/Bank%20Fin%20embedding%20visualization.ipynb) on how to use BankFin embedding for a quick start.
 
 ## References
 1. L. Maate and G. Hinton, "Visualizing data using t-SNE", Journal of Machine Learning Research, vol. 9, pp. 2579-2605, 2008. 
