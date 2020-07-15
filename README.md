@@ -20,6 +20,7 @@ In the following image we have visualized 11 financial words with their dimensio
 
 ![MSA](images/similar_words.png)
 
+## Language Structure
 Below image showed words in close proximity to specific finance words
 
 ![MSA](images/cl1.PNG)
@@ -35,9 +36,22 @@ The core idea is that once words are represented as numerical vectors, you can d
 - Add and subtract those vectors to produce a new, combined vector.
 - Look up the most similar vector(s) to this new, combined vector via cosine similarity.
 - Return the word(s) associated with the similar vector(s).
-- But more generally, you can think of the vectors that represent each word as encoding some information about the meaning or concepts of the word. What happens when you ask the model to combine the meaning and concepts of words in new ways
+This is the amazing property of word embeddings, because it means that they carry important relational information that can be used in many different NLP tasks.
 
 ![MSA](images/word_algebra.PNG)
+
+## Application
+
+Word2Vec isn't Deep learning at all, as the model is actually very shallow. However, there is an important relation here, because word embeddings are usually used to initialize
+dense LSTM embeddings for different tasks using deep architectures. Also you can of course train Bank Fin vec embedding model using techniques developed in Deep Learning context.
+
+- It can be helpful in analyzing financial survey responses
+- It can also be used to detect sentiments of financial news or text in the form of positive, negative or neutral sentiment.
+- It can be helpful in financial text classification, financial document similarity, readability index and many more.
+
+## FAQ
+
+You can find this [tutorial]() on how to use BankFin embedding for a quick start.
 
 ## References
 1. L. Maate and G. Hinton, "Visualizing data using t-SNE", Journal of Machine Learning Research, vol. 9, pp. 2579-2605, 2008. 
