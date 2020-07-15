@@ -20,6 +20,25 @@ In the following image we have visualized 11 financial words with their dimensio
 
 ![MSA](images/similar_words.png)
 
+Below image showed words in close proximity to specific finance words
+
+![MSA](images/c1.png)
+
+![MSA](images/c2.png)
+
+## Word Algebra
+
+The core idea is that once words are represented as numerical vectors, you can do math with them. The mathematical procedure goes like this:
+
+- Provide a set of words or phrases that you'd like to add or subtract.
+- Look up the vectors that represent those terms in the word vector model.
+- Add and subtract those vectors to produce a new, combined vector.
+- Look up the most similar vector(s) to this new, combined vector via cosine similarity.
+- Return the word(s) associated with the similar vector(s).
+- But more generally, you can think of the vectors that represent each word as encoding some information about the meaning or concepts of the word. What happens when you ask the model to combine the meaning and concepts of words in new ways
+
+![MSA](images/word_algebra.png)
+
 ## References
 1. L. Maate and G. Hinton, "Visualizing data using t-SNE", Journal of Machine Learning Research, vol. 9, pp. 2579-2605, 2008. 
 2. T. Mikolov, I. Sutskever, K. Chen, G. Corrado and J. Dean, "Distributed Representations of Words and Phrases and their Compositionality", Advances in Neural Information Processing Systems, pp. 3111-3119, 2013. 
