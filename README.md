@@ -22,9 +22,9 @@ In the following image we have visualized 11 financial words with their dimensio
 
 Below image showed words in close proximity to specific finance words
 
-![MSA](images/c1.png)
+![MSA](images/c1.PNG)
 
-![MSA](images/c2.png)
+![MSA](images/c2.PNG)
 
 ## Word Algebra
 
@@ -37,7 +37,7 @@ The core idea is that once words are represented as numerical vectors, you can d
 - Return the word(s) associated with the similar vector(s).
 - But more generally, you can think of the vectors that represent each word as encoding some information about the meaning or concepts of the word. What happens when you ask the model to combine the meaning and concepts of words in new ways
 
-![MSA](images/word_algebra.png)
+![MSA](images/word_algebra.PNG)
 
 ## References
 1. L. Maate and G. Hinton, "Visualizing data using t-SNE", Journal of Machine Learning Research, vol. 9, pp. 2579-2605, 2008. 
